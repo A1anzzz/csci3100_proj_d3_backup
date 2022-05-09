@@ -1,8 +1,7 @@
 # csci3100_proj_d3
-# yyds
-# All things are well done.
-# life suffer
-# hhhhhhh
+# BallDogs
+
+# Use yarn instead of npm to avoid dependicies bug.
 
 # 运行backend所需module:
 pip install dj_database_url <br/>
