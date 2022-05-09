@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load static %}
+  <link href="{% static 'personal_page/style.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body class="background">
+<div id='goods'>
+    <div class='backward'>
+    <button class="home"></button>
+    </div>
+    <div class="search-bar">
+       
+        <input class="search-container" placeholder='Search...'/>
+        <button class="search-icon"></button>
+        
+    </div>
+    <div class="classify-container">
+        <div class="classify-name-list">
+                {% load static %}
+                <div class="profile-picture" onload="">
+                    <img src="{{ userProf.profilePic.url }}" alt="please upload profile picture and refresh" style="width:100px; height: 100px;">
+                </div>
+                 
+            <div class='usertool'>
+                {% if user.is_authenticated %}
+                <li><a href="http://localhost:8000/user_profiles/change_profile_pic">Change profile picture</a></li>
+                <li><a href="http://localhost:8000/accounts/password_change">Change password</a></li>
+                <li><a href='http://localhost:8000/accounts/logout'>logout</a></li>
+                {% else %}
+                <li><a href="http://localhost:8000/accounts/login">login</a></li>
+                <li><a href="http://localhost:8000/user_profiles/signup">Create account</a></li>
+                {% endif %}
+            </div>
+        </div>
+        <div class="classify-goods-list" >
+            {% if user.is_authenticated %}
+                <div >
+                    <ul >
+                        <li>Username: {{ user.get_username}}</li>
+                        <li>Email: {{user.email}}</li>
+                    </ul>
+                </div>
+            {% else %}
+                <div>
+                    <h4>Please login first.</h4>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+</body>
+</html>

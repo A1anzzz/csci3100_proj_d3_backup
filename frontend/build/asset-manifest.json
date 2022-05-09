@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71161fd8.css",
+    "main.js": "/static/js/main.4d2a7ecf.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/balldog.jpg": "/static/media/balldog.70af3f569668747115fe.jpg",
+    "static/media/head.png": "/static/media/head.8bd5a178bb97c77fa236.png",
+    "index.html": "/index.html",
+    "main.71161fd8.css.map": "/static/css/main.71161fd8.css.map",
+    "main.4d2a7ecf.js.map": "/static/js/main.4d2a7ecf.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71161fd8.css",
+    "static/js/main.4d2a7ecf.js"
+  ]
+}

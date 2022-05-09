@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile_picture</title>
+</head>
+<body>
+    <form method="POST" action="{% url 'image_upload' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="profilePic">
+        <button type="submit">Upload</button>
+    </form>
+    <!-- <form method = "post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form> -->
+</body>
+</html>

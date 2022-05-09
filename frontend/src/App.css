@@ -1,0 +1,50 @@
+body{
+  background-image: url('./img/balldog.jpg'); 
+  background-size:cover; 
+  background-position:center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+
+span{
+  text-align: center;
+}
+
+p {
+  align-content: left;
+}
+
+.transbox{
+  margin: 55px;
+  padding:20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment_button{
+  text-align: right;
+}
+
+.transbox-comment{
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.comment-user{
+  align-items: center;
+  width:5%;
+  margin: 5px;
+  color:blue
+}
+
+.comment-content{
+  margin-left: 10%;
+}

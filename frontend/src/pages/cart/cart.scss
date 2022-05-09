@@ -1,0 +1,74 @@
+#goods {
+    height: 100%;
+
+    .backward {
+        width: 30%;
+        height: 3.4rem;
+        background: rgba(255, 255, 255, 0.00);
+        display: flex;
+        align-items: center;
+        float: left;
+        border-bottom: 1px solid #EFEFEF;
+
+        .home {
+            width: 2.5rem;
+            height: 2.5rem;
+            margin-left: 5rem;
+            background: url("./img/home2_bak.png");
+            background-size: 100% 100%;
+            border-radius: 1rem;
+            border: none;
+        }
+
+        .user {
+            width: 2.5rem;
+            height: 2.5rem;
+            margin-left: 5rem;
+            background: url("./img/default-head.png");
+            background-size: 100% 100%;
+            border-radius: 1rem;
+            border: none;
+        }
+    }
+
+    .search-bar {
+        width: 70%;
+        height: 3.4rem;
+        background: rgba(255, 255, 255, 0.00);
+        display: flex;
+        align-items: center;
+        float: right;
+        border-bottom: 1px solid #EFEFEF;
+
+        .search-icon {
+            margin-left: 0.5rem;
+            width: 2rem;
+            height: 2rem;
+            border: none;
+            background: url("./img/search_icon.png");
+            background-size: 100% 100%;
+        }
+
+        .search-container {
+            width: 80%;
+            height: 2rem;
+            border: solid 1px #B2B2B2;
+            border-radius: 0.5rem;
+            margin-top: 0rem;
+            font-size: 1.2rem;
+            color: #626262;
+            line-height: 0.5rem;
+            align-items: center;
+            padding-left: 0.5rem;
+        }
+    }
+
+
+
+    .card {
+        margin: 0 1%;
+        flex: 1;
+        height: 60%;
+        display: inline-flex;
+    }
+}

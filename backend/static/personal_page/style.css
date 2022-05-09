@@ -1,0 +1,101 @@
+.background{
+    background-image: url('./img/balldog.jpg'); 
+    background-size:cover; 
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#goods {
+    height: 100%;
+}
+#goods .backward {
+    width: 30%;
+    height: 3.4rem;
+    background: rgba(255, 255, 255, 0.00);
+    display: flex;
+    align-items: center;
+    float: left;
+    border-bottom: 1px solid #efefef;
+}
+#goods .backward .home {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 5rem;
+    background: url("./img/home2_bak.png");
+    background-size: 100% 100%;
+    border-radius: 1rem;
+    border: none;
+}
+#goods .search-bar {
+    width: 70%;
+    height: 3.4rem;
+    background: rgba(255, 255, 255, 0.00);
+    display: flex;
+    align-items: center;
+    float: right;
+    border-bottom: 1px solid #efefef;
+}
+#goods .search-bar .search-icon {
+    margin-left: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background: url("./img/search_icon.png");
+    background-size: 100% 100%;
+}
+#goods .search-bar .search-container {
+    width: 80%;
+    height: 2rem;
+    border: solid 1px #b2b2b2;
+    border-radius: 0.5rem;
+    margin-top: 0rem;
+    font-size: 1.2rem;
+    color: #626262;
+    line-height: 0.5rem;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+#goods .classify-container {
+    height: calc(100vh - 3.5rem);
+    width: 150%;
+    display: flex;
+}
+#goods .classify-container .classify-name-list {
+    margin-left: 0.3rem;
+    width: 12rem;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #fff;
+}
+#goods .classify-container .classify-name-list .head {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    background: url("./img/default-head.png");
+    background-size: 100% 100%;
+    border-radius: 0.5rem;
+    border: solid 1px #808080;
+}
+#goods .classify-container .classify-name-list .usertool {
+    height: 100px;
+    margin-top: 2rem;
+}
+#goods .classify-container .classify-name-list .usertool .user-item {
+    width: 100%;
+    height: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #efefef;
+    background-color: #fff;
+    font-size: 15px;
+    overflow: hidden;
+}
+#goods .classify-container .classify-goods-list {
+    margin: 0 1%;
+    flex: 1;
+    height: 60%;
+    display: inline-flex;
+}
